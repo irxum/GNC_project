@@ -1,19 +1,22 @@
-# GNC_project
-Getting and Cleaning Data Course Project submission
-Version 1.0
-===================================================
-Alex Kwan
-Coursera:  Getting and Cleaning Data
-https://class.coursera.org/getdata-014/human_grading/view/courses/973501/assessments/3/submissions
-===================================================
+---
+title: "README.md"
+author: "AKwan"
+date: "Friday, May 22, 2015"
+output: html_document
+---
+
+## GNC_project
+
 
 Contents of this repo:
+
 - README.md (this document)
 
 - run_analysis.R:   
   This is the R script performing analysis.  No inputs are required.
   The script sets the working directory to contain the the Human
-  Activity Recognition Using Smartphons Dataset.  It consumes the
+  Activity Recognition Using Smartphons Dataset.  It uses the dplyr
+  and reshape2 libraries.  It consumes the
   training and test data, extracts only the measurements related to mean
   and standard deviation, converts the activity code to useful activity names,
   apply appropriate names to variables, and outputs a tidy data set that 
