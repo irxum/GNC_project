@@ -22,7 +22,7 @@ Contents of this repo:
   apply appropriate names to variables, and outputs a tidy data set that 
   has the average of each variable for each activity and each subject.  
 
-- code_book.txt:  
+- codebook.txt:  
   This code book describes the contents of key_meas_tidy.txt
 
 - key_meas_tidy.txt:  
