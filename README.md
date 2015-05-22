@@ -27,6 +27,13 @@ Contents of this repo:
 
 - key_meas_tidy.txt:  
   This text file contains the tidy dataset which is output of run_analysis.R.
+  This is considered a tidy dataset because it fulfills the three conditions:
+  - Each variable measured in one column
+  - Each different observation of variable in different row.
+  - One table (the text file) for each kind of variable
+  The "variable" column details the name of measurement.
+  The "value" column is the average of the mean or standard deviation
+  of measurement.  These values are unitless.  
 
 
  
